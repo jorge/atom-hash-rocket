@@ -1,10 +1,9 @@
 {
   "name": "atom-hash-rocket",
   "main": "./lib/atom-hash-rocket",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Inserts a => like Textmate used to",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-hash-rocket:insert"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
