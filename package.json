@@ -1,14 +1,14 @@
 {
   "name": "atom-hash-rocket",
   "main": "./lib/atom-hash-rocket",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Inserts a => like Textmate used to",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "atom-hash-rocket:insert"
   },
-  "repository": "https://github.com/atom/atom-hash-rocket",
+  "repository": "https://github.com/jorge/atom-hash-rocket",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
