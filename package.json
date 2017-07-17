@@ -5,7 +5,7 @@
   "description": "Inserts a => like Textmate used to",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-hash-rocket:insert"
+    "atom-workspace": "atom-hash-rocket:insertHashRocket"
   },
   "repository": "https://github.com/jorge/atom-hash-rocket",
   "license": "MIT",

@@ -5,12 +5,12 @@ module.exports =
 
   activate: ->
     @subscriptions = new CompositeDisposable
-    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-hash-rocket:insert': => @insert()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-hash-rocket:insertHashRocket': => @insertHashRocket()
 
   deactivate: ->
     @subscriptions.dispose()
 
-  insert: ->
+  insertHashRocket: ->
     console.log 'insert text'
     if editor = atom.workspace.getActiveTextEditor()
-      editor.insertText('=>')
+      editor.insertText(' => ')

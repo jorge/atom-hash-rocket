@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Insert atom-hash-rocket'
-      'command': 'atom-hash-rocket:insert'
+      'command': 'atom-hash-rocket:insertHashRocket'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Insert'
-          'command': 'atom-hash-rocket:insert'
+          'command': 'atom-hash-rocket:insertHashRocket'
         }
       ]
     ]
